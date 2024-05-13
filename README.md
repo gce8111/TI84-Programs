@@ -1,0 +1,1 @@
+ spasm64 -E -T helloWorld.asm bin\helloWorld.8xp

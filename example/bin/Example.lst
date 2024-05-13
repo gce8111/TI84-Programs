@@ -1,0 +1,44 @@
+    1 00:0000 -  -  -  -  #include "includes\ti84pce.inc"
+Listing for file "C:\Users\gce81\Documents\EZ80\example\includes\ti84pce.inc"
+    1 00:0000 -  -  -  -  ;TI-84 Plus CE Include File
+    2 00:0000 -  -  -  -  
+    3 00:0000 -  -  -  -  ;Various Parts Contributed by
+    4 00:0000 -  -  -  -  ;- BrandonW
+    5 00:0000 -  -  -  -  ;- calc84
+    6 00:0000 -  -  -  -  ;- Kerm Martian
+    7 00:0000 -  -  -  -  ;- MateoConLechuga
+    8 00:0000 -  -  -  -  ;- Runer112
+    9 00:0000 -  -  -  -  ;- tr1p1ea
+   10 00:0000 -  -  -  -  ;- Texas Instruments (ti83plus.inc)
+Listing for file "Example.asm"
+    2 00:0000 -  -  -  -  
+    3 00:0000 -  -  -  -   .assume ADL=1
+    4 00:0000 -  -  -  -   .org userMem-2
+    5 D1:A87F EF 7B -  -   .db tExtTok,tAsm84CeCmp
+    6 D1:A881 -  -  -  -  
+    7 D1:A881 CD 28 08 02  call _homeup
+    8 D1:A885 CD 10 08 02  call _ClrScrnFull
+    9 D1:A889 21 9E A8 D1  ld hl,TutorialText
+   10 D1:A88D CD C0 07 02  call _PutS
+   11 D1:A891 CD 8C 0D 02  call _GetKey
+   12 D1:A895 CD 10 08 02  call _ClrScrnFull
+   13 D1:A899 FD CB 00 AE  res donePrgm,(iy+doneFlags)
+   14 D1:A89D C9 -  -  -   ret
+   15 D1:A89E -  -  -  -  
+   16 D1:A89E -  -  -  -  TutorialText:
+   17 D1:A89E 45 78 63 65 
+              6C 6C 65 6E 
+              74 20 6A 6F 
+              62 21 20 3A 
+              29 20 59 6F 
+              75 20 68 61 
+              76 65 63 72 
+              65 61 74 65 
+              64 20 79 6F 
+              75 72 20 66 
+              69 72 73 74 
+              20 61 73 73 
+              65 6D 62 6C 
+              79 20 70 72 
+              6F 67 72 61 
+              6D 21 00 -    .db "Excellent job! :) You havecreated your first assembly program!",0
