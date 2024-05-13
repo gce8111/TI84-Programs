@@ -1,5 +1,5 @@
     1 00:0000 -  -  -  -  #include "includes\ti84pce.inc"
-Listing for file "C:\Users\gce81\Documents\EZ80\helloWorld\includes\ti84pce.inc"
+Listing for file "C:\Users\gce81\Documents\gitProjects\TI84-Programs\helloWorld\includes\ti84pce.inc"
     1 00:0000 -  -  -  -  ;TI-84 Plus CE Include File
     2 00:0000 -  -  -  -  
     3 00:0000 -  -  -  -  ;Various Parts Contributed by
@@ -18,8 +18,21 @@ Listing for file "helloWorld.asm"
     6 D1:A881 -  -  -  -  
     7 D1:A881 CD 28 08 02  call _homeup
     8 D1:A885 CD 10 08 02  call _ClrScrnFull
-    9 D1:A889 3E 48 -  -   ld a, 72
-   10 D1:A88B CD B8 07 02  call _PutC
-   11 D1:A88F CD F0 07 02  call _NewLine
-   12 D1:A893 C9 -  -  -   ret
-   13 D1:A894 -  -  -  -  	
+    9 D1:A889 21 A1 A8 D1  ld hl, Message
+   10 D1:A88D CD 96 A8 D1  call PrintString
+   11 D1:A891 CD F0 07 02  call _NewLine
+   12 D1:A895 C9 -  -  -   ret
+   13 D1:A896 -  -  -  -   
+   14 D1:A896 -  -  -  -  PrintString:
+   15 D1:A896 7E -  -  -   ld a, (hl)
+   16 D1:A897 FE 00 -  -   cp 0
+   17 D1:A899 C8 -  -  -   ret z
+   18 D1:A89A 23 -  -  -   inc hl
+   19 D1:A89B CD B8 07 02  call _PutC
+   20 D1:A89F 18 F5 -  -   jr PrintString
+   21 D1:A8A1 -  -  -  -  
+   22 D1:A8A1 -  -  -  -  Message:
+   23 D1:A8A1 48 65 6C 6C 
+              6F 20 57 6F 
+              72 6C 64 21 
+              00 -  -  -  .db "Hello World!",0

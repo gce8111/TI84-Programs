@@ -6,8 +6,18 @@
 
  call _homeup
  call _ClrScrnFull
- ld a, 72
- call _PutC
+ ld hl, Message
+ call PrintString
  call _NewLine
  ret
  
+PrintString:
+ ld a, (hl)
+ cp 0
+ ret z
+ inc hl
+ call _PutC
+ jr PrintString
+
+Message:
+.db "Hello World!",0
