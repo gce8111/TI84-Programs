@@ -18,7 +18,7 @@ Listing for file "helloWorld.asm"
     6 D1:A881 -  -  -  -  
     7 D1:A881 CD 28 08 02  call _homeup
     8 D1:A885 CD 10 08 02  call _ClrScrnFull
-    9 D1:A889 21 A1 A8 D1  ld hl, Message
+    9 D1:A889 21 A3 A8 D1  ld hl, Message
    10 D1:A88D CD 96 A8 D1  call PrintString
    11 D1:A891 CD F0 07 02  call _NewLine
    12 D1:A895 C9 -  -  -   ret
@@ -29,10 +29,10 @@ Listing for file "helloWorld.asm"
    17 D1:A899 C8 -  -  -   ret z
    18 D1:A89A 23 -  -  -   inc hl
    19 D1:A89B CD B8 07 02  call _PutC
-   20 D1:A89F 18 F5 -  -   jr PrintString
-   21 D1:A8A1 -  -  -  -  
-   22 D1:A8A1 -  -  -  -  Message:
-   23 D1:A8A1 48 65 6C 6C 
+   20 D1:A89F C3 96 A8 D1  jp PrintString
+   21 D1:A8A3 -  -  -  -  
+   22 D1:A8A3 -  -  -  -  Message:
+   23 D1:A8A3 48 65 6C 6C 
               6F 20 57 6F 
               72 6C 64 21 
               00 -  -  -  .db "Hello World!",0

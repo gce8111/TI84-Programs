@@ -17,7 +17,7 @@ PrintString:
  ret z
  inc hl
  call _PutC
- jr PrintString
+ jp PrintString
 
 Message:
 .db "Hello World!",0
