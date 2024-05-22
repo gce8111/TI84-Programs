@@ -1,0 +1,51 @@
+    1 00:0000 -  -  -  -  #include "includes\ti84pce.inc"
+Listing for file "C:\Users\gce81\Documents\gitProjects\TI84-Programs\CLS1bpp\includes\ti84pce.inc"
+    1 00:0000 -  -  -  -  ;TI-84 Plus CE Include File
+    2 00:0000 -  -  -  -  
+    3 00:0000 -  -  -  -  ;Various Parts Contributed by
+    4 00:0000 -  -  -  -  ;- BrandonW
+    5 00:0000 -  -  -  -  ;- calc84
+    6 00:0000 -  -  -  -  ;- Kerm Martian
+    7 00:0000 -  -  -  -  ;- MateoConLechuga
+    8 00:0000 -  -  -  -  ;- Runer112
+    9 00:0000 -  -  -  -  ;- tr1p1ea
+   10 00:0000 -  -  -  -  ;- Texas Instruments (ti83plus.inc)
+Listing for file "CLS1bpp.asm"
+    2 00:0000 -  -  -  -  
+    3 00:0000 -  -  -  -  .assume ADL=1
+    4 00:0000 -  -  -  -  .org userMem-2
+    5 D1:A87F EF 7B -  -  .db tExtTok,tAsm84CeCmp
+    6 D1:A881 -  -  -  -  
+    7 D1:A881 CD 8C 0D 02  call _GetKey
+    8 D1:A885 -  -  -  -   
+    9 D1:A885 21 B6 A8 D1  ld hl,Palette
+   10 D1:A889 11 00 02 E3  ld de,mpLcdPalette
+   11 D1:A88D 01 04 00 00  ld bc,2*2
+   12 D1:A891 ED B0 -  -   ldir
+   13 D1:A893 -  -  -  -   
+   14 D1:A893 3E 21 -  -   ld a,lcdBpp1
+   15 D1:A895 32 18 00 E3  ld (mpLcdCtrl),a
+   16 D1:A899 -  -  -  -  
+   17 D1:A899 21 00 00 D4  ld hl,vRam
+   18 D1:A89D 01 80 25 00  ld bc,320*240/8		;320 by 240 pixels, 8 pixels per byte, iterate through every byte of mem
+   19 D1:A8A1 -  -  -  -  CLSLoop:
+   20 D1:A8A1 36 00 -  -   ld (hl),$00			;set 8 pixels at a time
+   21 D1:A8A3 23 -  -  -   inc hl
+   22 D1:A8A4 -  -  -  -   
+   23 D1:A8A4 0B -  -  -   dec bc					;using bc to countdown how many iterations we have left
+   24 D1:A8A5 78 -  -  -   ld a,b					;check if zero left
+   25 D1:A8A6 B1 -  -  -   or c
+   26 D1:A8A7 C2 A1 A8 D1  jp nz,CLSLoop			;repeat if non-zero amount left
+   27 D1:A8AB -  -  -  -  
+   28 D1:A8AB CD 8C 0D 02  call _GetKey
+   29 D1:A8AF -  -  -  -   
+   30 D1:A8AF 3E 2D -  -   ld a,lcdBpp16
+   31 D1:A8B1 32 18 00 E3  ld (mpLcdCtrl),a
+   32 D1:A8B5 -  -  -  -   
+   33 D1:A8B5 -  -  -  -   ;call _HomeUp
+   34 D1:A8B5 -  -  -  -   
+   35 D1:A8B5 C9 -  -  -   ret
+   36 D1:A8B6 -  -  -  -   
+   37 D1:A8B6 -  -  -  -  Palette:
+   38 D1:A8B6 00 00 -  -  .dw $0000				;black
+   39 D1:A8B8 FF FF -  -  .dw $FFFF				;white
