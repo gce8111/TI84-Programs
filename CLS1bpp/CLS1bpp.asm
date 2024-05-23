@@ -17,7 +17,7 @@
  ld hl,vRam
  ld bc,320*240/8		;320 by 240 pixels, 8 pixels per byte, iterate through every byte of mem
 CLSLoop:
- ld (hl),$00			;set 8 pixels at a time
+ ld (hl),$FF			;set 8 pixels at a time
  inc hl
  
  dec bc					;using bc to countdown how many iterations we have left
@@ -30,7 +30,7 @@ CLSLoop:
  ld a,lcdBpp16
  ld (mpLcdCtrl),a
  
- ;call _HomeUp
+ ;call _ClrScrnFull
  
  ret
  

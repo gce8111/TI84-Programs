@@ -29,7 +29,7 @@ Listing for file "CLS1bpp.asm"
    17 D1:A899 21 00 00 D4  ld hl,vRam
    18 D1:A89D 01 80 25 00  ld bc,320*240/8		;320 by 240 pixels, 8 pixels per byte, iterate through every byte of mem
    19 D1:A8A1 -  -  -  -  CLSLoop:
-   20 D1:A8A1 36 00 -  -   ld (hl),$00			;set 8 pixels at a time
+   20 D1:A8A1 36 FF -  -   ld (hl),$FF			;set 8 pixels at a time
    21 D1:A8A3 23 -  -  -   inc hl
    22 D1:A8A4 -  -  -  -   
    23 D1:A8A4 0B -  -  -   dec bc					;using bc to countdown how many iterations we have left
@@ -42,7 +42,7 @@ Listing for file "CLS1bpp.asm"
    30 D1:A8AF 3E 2D -  -   ld a,lcdBpp16
    31 D1:A8B1 32 18 00 E3  ld (mpLcdCtrl),a
    32 D1:A8B5 -  -  -  -   
-   33 D1:A8B5 -  -  -  -   ;call _HomeUp
+   33 D1:A8B5 -  -  -  -   ;call _ClrScrnFull
    34 D1:A8B5 -  -  -  -   
    35 D1:A8B5 C9 -  -  -   ret
    36 D1:A8B6 -  -  -  -   
