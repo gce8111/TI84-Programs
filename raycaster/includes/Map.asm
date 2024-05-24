@@ -325,7 +325,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -345,7 +345,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -365,7 +365,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -385,7 +385,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -405,7 +405,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -425,7 +425,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -445,7 +445,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -465,7 +465,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -485,7 +485,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -505,7 +505,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -525,7 +525,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -545,7 +545,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -565,7 +565,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -585,7 +585,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -605,7 +605,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -625,7 +625,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -645,7 +645,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -665,7 +665,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -685,7 +685,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -705,7 +705,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -725,7 +725,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -745,7 +745,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -765,7 +765,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -785,7 +785,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -805,7 +805,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -825,7 +825,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -845,7 +845,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -865,7 +865,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -885,7 +885,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -905,7 +905,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -925,7 +925,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -945,7 +945,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -965,7 +965,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -985,7 +985,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1005,7 +1005,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1025,7 +1025,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1045,7 +1045,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1065,7 +1065,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1085,7 +1085,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1105,7 +1105,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1125,7 +1125,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1145,7 +1145,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1165,7 +1165,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1185,7 +1185,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1205,7 +1205,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1225,7 +1225,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1245,7 +1245,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1265,7 +1265,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1285,7 +1285,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1305,7 +1305,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1325,7 +1325,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1345,7 +1345,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1365,7 +1365,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1385,7 +1385,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1405,7 +1405,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1425,7 +1425,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1445,7 +1445,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1465,7 +1465,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1485,7 +1485,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1505,7 +1505,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1525,7 +1525,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1545,7 +1545,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1565,7 +1565,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1585,7 +1585,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1605,7 +1605,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1625,7 +1625,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1645,7 +1645,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1665,7 +1665,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1685,7 +1685,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1705,7 +1705,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1725,7 +1725,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1745,7 +1745,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1765,7 +1765,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1785,7 +1785,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1805,7 +1805,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1825,7 +1825,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1845,7 +1845,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1865,7 +1865,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1885,7 +1885,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1905,7 +1905,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1925,7 +1925,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1945,7 +1945,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1965,7 +1965,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -1985,7 +1985,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2005,7 +2005,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2025,7 +2025,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2045,7 +2045,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2065,7 +2065,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2085,7 +2085,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2105,7 +2105,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2125,7 +2125,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2145,7 +2145,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2165,7 +2165,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2185,7 +2185,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2205,7 +2205,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2225,7 +2225,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2240,324 +2240,324 @@ Map:
  .dw $FFFF
  .dw $0000
  .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
- .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
+ .dw $FFFF
  .dw $0000
  .dw $0000
  .dw $FFFF
@@ -2892,7 +2892,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2912,7 +2912,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2932,7 +2932,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2952,7 +2952,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2972,7 +2972,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -2992,7 +2992,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3012,7 +3012,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3032,7 +3032,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3052,7 +3052,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3072,7 +3072,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3092,7 +3092,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3112,7 +3112,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3132,7 +3132,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3152,7 +3152,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3172,7 +3172,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
@@ -3192,7 +3192,7 @@ Map:
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF
- .dw $FFFF
+ .dw $0000
  .dw $FFFF
  .dw $FFFF
  .dw $FFFF

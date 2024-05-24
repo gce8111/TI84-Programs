@@ -16,6 +16,10 @@
  
  call DrawMap
  
+ call _GetKey
+ 
+ call DrawPlayer
+ 
  call _GetKey				;wait for user
  
  ld a,lcdBpp16				;go back to 16bpp so screen isn't corrupted
@@ -29,6 +33,42 @@ DrawMap:
  ld bc,lcdWidth*lcdHeight/8	;number of bytes needed to define screen in 1bpp mode
  ldir
  
+ ret
+
+DrawPlayer:					;(x+y*320)/8 = x/8+y*40
+ ld bc, (PlayerX)			;x/8
+ srl b
+ rr c
+ srl b
+ rr c
+ srl b
+ rr c
+ 
+ ld de,120					;y*5*8
+ ld a,5
+ call Mult12
+ add hl,hl
+ add hl,hl
+ add hl,hl
+ 
+ ld de,vRam					;add offset to vram
+ add hl,bc
+ add hl,de
+ 
+ ld (hl),$FE				;draw
+
+ ret
+
+Mult12:
+ ld l,0
+ ld b,8
+Mult12_Loop:
+ add hl,hl
+ add a,a
+ jr nc,Mult12_NoAdd
+ add hl,de
+Mult12_NoAdd:
+ djnz Mult12_Loop
  ret
 
 CLS:
@@ -48,5 +88,12 @@ CLSLoop:
 Palette:
 .dw $003E					;blue
 .dw $FFFF					;white
+
+PlayerX:
+.dw $00A0
+.db $00
+PlayerY:
+.dw $0078
+.db $00
 
 #include "includes\Map.asm"
